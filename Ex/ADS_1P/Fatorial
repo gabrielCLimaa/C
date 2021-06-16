@@ -1,0 +1,23 @@
+#include <stdio.h>
+	int main () {
+	int n,c,p;
+	 printf("Insira um valor inteiro\n");
+	scanf("%d",&n);
+	c=1;
+	p=1;
+		if(n == 0 || n == 1) {
+		  printf("Resultado igual a 1,\n");
+		} else if(n > 1) {
+		    while(c <= n) {
+		      p= p * c;
+		c++;
+		}
+		printf("Resultado =%d\n",p);
+		}
+		
+		
+	return 0 ;
+	}
+	
+	
+

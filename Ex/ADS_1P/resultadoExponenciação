@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main () {
+int B, E, p, s;
+p= 1;
+printf("Informe o numero da base do expoente\n");
+scanf("%d", &B);
+printf("Informe o valor do expoente\n");
+scanf("%d", &E);
+		if(E == 1) {
+	  	printf("A potencia e =%d\n",B);
+		}
+		if(E == 0) {
+		  printf("A potencia e =1\n");
+		}
+		if(E > 1) {
+		  s= B;
+			  while(p < E) {
+			    s= s * B;
+			p++;
+			}
+	printf("A potencia e =%d\n",s);
+	}
+	return 0;
+}
+

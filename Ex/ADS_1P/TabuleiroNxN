@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main () {
+int tamanho,total,quadrado,c;
+c= 0;
+total= 0;
+printf("Informe a medida do lado do tabuleiro.");
+scanf("%d", &tamanho);
+	tamanho= tamanho * tamanho;
+		while(c < tamanho) {
+			if(c == 0) {
+				quadrado= 1;
+			} else if(c > 0) {
+					quadrado= quadrado + quadrado;
+			}
+		total= total + quadrado;
+		c++;
+		}
+	printf("O tabuleiro tem =%d graos",total);
+	return 0;
+}
+		

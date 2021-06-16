@@ -1,0 +1,22 @@
+#include <stdio.h>
+	int main () {
+	int n,c,s,q,r;
+	printf("Insira um valor real positivo");
+	scanf("%d",&n);
+	c = 1;
+	s = 0;
+	  while (c < n) {
+	    q = n/c;
+	    r = (q*c) - n;
+		if(r == 0) {
+		  s = s + c;
+		}
+		c++;
+		}
+		if(s == n) {
+		  puts("perfeito");
+		  } else puts("Nao e perfeito");
+		
+	return 0 ;
+	}
+	

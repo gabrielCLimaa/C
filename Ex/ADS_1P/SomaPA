@@ -1,0 +1,21 @@
+#include <stdio.h>
+	
+int main () {
+	int n,d,s;
+	n=1;
+	s=0;
+	d=1;
+	  do {
+		  n= n+2;
+		  d= d+1;
+		  s= s + (n/d);
+		 } while (n <= 98);
+
+	printf("Numerador=%d--",n);
+	printf("Divisor=%d--",d);
+	printf("Soma=%d}}}",s);
+	
+	
+	return 0;
+	
+}

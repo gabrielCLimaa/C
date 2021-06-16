@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+	
+int main () {
+	int min,max,n,c;
+	c= 0;
+	min=1000000;
+	max=0;
+	  while(c < 15) {
+	    printf("Informe 1 numero\n");
+	    scanf("%d",&n);		
+	  if (n > max) {
+  	    max = n;
+  	}
+	  if (n < min) {
+	    min = n;
+	  }	
+	  c++;
+	printf("Valor minimo=%d",min);
+	printf("Valor maximo=%d",max);
+	}
+	return 0;
+}
+

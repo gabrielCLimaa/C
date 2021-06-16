@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+	int c,n,v;
+	  for (c=1000 ; c<=1999 ; c++) {
+	    n= c % 11;
+	    v= c;
+	  if ( n == 5) {
+	    printf("Numero=%d-----",v);
+	}
+	}
+	return 0;
+
+}
